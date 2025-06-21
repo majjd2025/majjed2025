@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فرقة مجد المسرحية</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light blue-gray background */
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #cbd5e1; /* Light gray */
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #3b82f6; /* Blue */
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #2563eb; /* Darker blue */
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white shadow-lg p-4 sticky top-0 z-50 rounded-b-xl">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <a href="#" class="text-3xl font-extrabold mb-3 md:mb-0 transform hover:scale-105 transition-transform duration-300">
+                فرقة مجد المسرحية
+            </a>
+            <nav class="space-x-4 space-x-reverse flex flex-wrap justify-center">
+                <a href="#home" class="nav-link text-lg font-medium px-4 py-2 rounded-lg hover:bg-white hover:text-blue-700 transition-colors duration-300">الرئيسية</a>
+                <a href="#about-theater" class="nav-link text-lg font-medium px-4 py-2 rounded-lg hover:bg-white hover:text-blue-700 transition-colors duration-300">عن المسرح</a>
+                <a href="#gallery" class="nav-link text-lg font-medium px-4 py-2 rounded-lg hover:bg-white hover:text-blue-700 transition-colors duration-300">معرض الصور</a>
+                <a href="#contact" class="nav-link text-lg font-medium px-4 py-2 rounded-lg hover:bg-white hover:text-blue-700 transition-colors duration-300">تواصل معنا</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-cover bg-center h-screen flex items-center justify-center text-center p-4 rounded-b-xl shadow-inner" style="background-image: url('https://placehold.co/1920x1080/4a5568/ffffff?text=Stage+Lights');">
+        <div class="absolute inset-0 bg-black opacity-60 rounded-b-xl"></div>
+        <div class="relative z-10 text-white max-w-3xl mx-auto bg-black bg-opacity-40 p-8 rounded-3xl shadow-2xl backdrop-blur-sm">
+            <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6 animate-fade-in-down">
+                مرحباً بكم في عالم <span class="text-yellow-400">مجد</span> المسرحية
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 font-light animate-fade-in-up">
+                حيث يلتقي الشغف بالفن، وننسج القصص على خشبة المسرح.
+            </p>
+            <a href="#about-theater" class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-4 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 active:scale-95">
+                اكتشف المزيد عنا
+            </a>
+        </div>
+    </section>
+
+    <!-- About Theater Section -->
+    <section id="about-theater" class="py-16 md:py-24 bg-white rounded-xl shadow-xl mx-auto my-12 p-8 max-w-6xl">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-center text-blue-700 mb-12 relative pb-4">
+                <span class="relative">
+                    عن المسرح
+                    <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-24 h-1 bg-yellow-500 rounded-full"></span>
+                </span>
+            </h2>
+            <div class="flex flex-col md:flex-row items-center md:space-x-12 md:space-x-reverse">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <img src="https://placehold.co/800x600/fcd34d/1e293b?text=Theater+Masks" alt="أقنعة مسرحية" class="rounded-3xl shadow-2xl border-4 border-yellow-400 transform hover:scale-105 transition-transform duration-300">
+                </div>
+                <div class="md:w-1/2 text-lg leading-relaxed">
+                    <p class="mb-6">
+                        المسرح هو فن الحياة، مرآة تعكس واقعنا وأحلامنا، ومنبر يصدح بالآراء والأفكار. إنه المكان الذي تتجسد فيه المشاعر الإنسانية بكل تعقيداتها، حيث تتشابك خيوط القصص لتصنع نسيجاً فنياً فريداً يلامس الروح والعقل.
+                    </p>
+                    <p class="mb-6">
+                        تؤمن فرقة مجد المسرحية بأن المسرح ليس مجرد عرض ترفيهي، بل هو أداة للتغيير والتنوير، ومنصة للحوار البنّاء. نسعى من خلال أعمالنا إلى تقديم تجارب مسرحية غنية، تجمع بين الأصالة والمعاصرة، وتحفز الجمهور على التفكير والتأمل.
+                    </p>
+                    <p>
+                        نعمل بجد لتقديم عروض تترك أثراً عميقاً في نفوس المشاهدين، مستلهمين إبداعاتنا من التراث الغني والفنون العالمية، مع لمسة خاصة تعبر عن رؤية فرقة مجد.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-16 md:py-24 bg-gray-100 rounded-xl shadow-xl mx-auto my-12 p-8 max-w-6xl">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-center text-blue-700 mb-12 relative pb-4">
+                <span class="relative">
+                    معرض الصور
+                    <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-24 h-1 bg-yellow-500 rounded-full"></span>
+                </span>
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Image 1 -->
+                <div class="group relative overflow-hidden rounded-2xl shadow-xl transition-transform duration-300 hover:scale-105">
+                    <img src="https://placehold.co/600x400/3b82f6/ffffff?text=Actors+on+Stage" alt="ممثلون على خشبة المسرح" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300 flex items-end justify-center p-4">
+                        <p class="text-white text-xl font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">لحظات من العرض</p>
+                    </div>
+                </div>
+                <!-- Image 2 -->
+                <div class="group relative overflow-hidden rounded-2xl shadow-xl transition-transform duration-300 hover:scale-105">
+                    <img src="https://placehold.co/600x400/93c5fd/1e293b?text=Behind+the+Scenes" alt="خلف الكواليس" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300 flex items-end justify-center p-4">
+                        <p class="text-white text-xl font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">تحضيرات العرض</p>
+                    </div>
+                </div>
+                <!-- Image 3 -->
+                <div class="group relative overflow-hidden rounded-2xl shadow-xl transition-transform duration-300 hover:scale-105">
+                    <img src="https://placehold.co/600x400/60a5fa/ffffff?text=Audience+View" alt="منظر الجمهور" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300 flex items-end justify-center p-4">
+                        <p class="text-white text-xl font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">تفاعل الجمهور</p>
+                    </div>
+                </div>
+                <!-- Image 4 -->
+                <div class="group relative overflow-hidden rounded-2xl shadow-xl transition-transform duration-300 hover:scale-105">
+                    <img src="https://placehold.co/600x400/a78bfa/ffffff?text=Rehearsal" alt="بروفات مسرحية" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300 flex items-end justify-center p-4">
+                        <p class="text-white text-xl font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">تدريبات مكثفة</p>
+                    </div>
+                </div>
+                <!-- Image 5 -->
+                <div class="group relative overflow-hidden rounded-2xl shadow-xl transition-transform duration-300 hover:scale-105">
+                    <img src="https://placehold.co/600x400/c4b5fd/1e293b?text=Costumes" alt="أزياء مسرحية" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300 flex items-end justify-center p-4">
+                        <p class="text-white text-xl font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">تفاصيل الأزياء</p>
+                    </div>
+                </div>
+                <!-- Image 6 -->
+                <div class="group relative overflow-hidden rounded-2xl shadow-xl transition-transform duration-300 hover:scale-105">
+                    <img src="https://placehold.co/600x400/818cf8/ffffff?text=Set+Design" alt="تصميم الديكور" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300 flex items-end justify-center p-4">
+                        <p class="text-white text-xl font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">الإعداد المسرحي</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-24 bg-white rounded-xl shadow-xl mx-auto my-12 p-8 max-w-6xl">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-center text-blue-700 mb-12 relative pb-4">
+                <span class="relative">
+                    تواصل معنا
+                    <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-24 h-1 bg-yellow-500 rounded-full"></span>
+                </span>
+            </h2>
+            <div class="max-w-2xl mx-auto bg-gray-50 p-8 rounded-3xl shadow-xl border border-gray-200">
+                <p class="text-center text-lg mb-8 text-gray-700">
+                    نحن متحمسون لسماع آرائكم واقتراحاتكم. لا تترددوا في التواصل معنا!
+                </p>
+                <form class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700 mb-2">الاسم الكامل</label>
+                        <input type="text" id="name" name="name" class="block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 transition-all duration-200" placeholder="اسمك الكريم">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-2">البريد الإلكتروني</label>
+                        <input type="email" id="email" name="email" class="block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 transition-all duration-200" placeholder="your.email@example.com">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700 mb-2">رسالتك</label>
+                        <textarea id="message" name="message" rows="5" class="block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 transition-all duration-200" placeholder="اكتب رسالتك هنا..."></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-4 focus:ring-blue-300">
+                            إرسال الرسالة
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-8 rounded-t-xl shadow-lg mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-4">&copy; 2025 فرقة مجد المسرحية. جميع الحقوق محفوظة.</p>
+            <div class="flex justify-center space-x-4 space-x-reverse text-2xl">
+                <!-- Social media icons - placeholders -->
+                <a href="#" class="hover:text-blue-400 transition-colors duration-300" aria-label="فيسبوك">
+                    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+                <a href="#" class="hover:text-pink-400 transition-colors duration-300" aria-label="إنستغرام">
+                    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M12 4c-2.716 0-4.992 2.276-4.992 4.992v8.016A4.992 4.992 0 0012 21c2.716 0 4.992-2.276 4.992-4.992V8.992C16.992 6.276 14.716 4 12 4zM12 20c-1.895 0-3.432-1.537-3.432-3.432V8.432c0-1.895 1.537-3.432 3.432-3.432 1.895 0 3.432 1.537 3.432 3.432v8.136c0 1.895-1.537 3.432-3.432 3.432zm6.985-11.758a1.2 1.2 0 10-2.4 0 1.2 1.2 0 002.4 0zm-1.8 1.8a4.992 4.992 0 11-9.985 0 4.992 4.992 0 019.985 0z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+                <a href="#" class="hover:text-blue-300 transition-colors duration-300" aria-label="تويتر">
+                    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M8.29 20.31c4.54 0 7.02-3.76 7.02-7.02 0-.11 0-.21-.01-.32.48-.35.89-.78 1.22-1.28a.74.74 0 00-.28-1.07c-.43-.18-.89-.25-1.35-.22a2.38 2.38 0 00-2.24-1.87c-.64-.09-1.26-.06-1.87.1l-.15.06a3.52 3.52 0 00-2.12 1.8c-.3.5-.47 1.05-.51 1.62-.05.57.14 1.14.5 1.62-.2.03-.4.04-.6.04-1.95 0-3.66-1.05-4.5-2.61-.17-.3-.33-.6-.49-.9-.16-.3-.31-.6-.47-.9a.74.74 0 00-1.07-.28c-.18.43-.25.89-.22 1.35.08.6.28 1.17.6 1.7.32.54.7 1.02 1.15 1.44a.74.74 0 00.91.19c.47-.28.9-.6 1.28-.96.28.16.58.3.88.42.3.12.6.22.9.3zm12.39-12.02a.74.74 0 00-1.07-.28c-.43.18-.89.25-1.35.22-.64.09-1.26.06-1.87-.1l-.15-.06a3.52 3.52 0 00-2.12-1.8c-.3-.5-.47-1.05-.51-1.62-.05-.57.14-1.14.5-1.62.2-.03.4-.04.6-.04 1.95 0 3.66 1.05 4.5 2.61.17.3.33.6.49.9.16.3.31.6.47.9a.74.74 0 001.07.28c.18-.43.25-.89.22-1.35-.08-.6-.28-1.17-.6-1.7-.32-.54-.7-1.02-1.15-1.44a.74.74 0 00-.91-.19c-.47.28-.9.6-1.28.96-.28-.16-.58-.3-.88-.42-.3-.12-.6-.22-.9-.3z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a.nav-link[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Simple form submission (for demonstration, no backend)
+        const contactForm = document.querySelector('#contact form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                // In a real application, you would send this data to a server.
+                // For now, we'll just show a confirmation message.
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const message = document.getElementById('message').value;
+
+                if (name && email && message) {
+                    alert('شكراً لك يا ' + name + '! لقد تم استلام رسالتك بنجاح. سنتواصل معك قريباً.');
+                    contactForm.reset(); // Clear the form
+                } else {
+                    alert('الرجاء تعبئة جميع الحقول المطلوبة.');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
